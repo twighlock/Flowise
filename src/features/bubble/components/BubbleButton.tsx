@@ -26,6 +26,7 @@ export const BubbleButton = (props: Props) => {
                 'z-index': 42424242,
                 'right': props.right ? `${props.right.toString()}px` : `${defaultRight}px`,
                 'bottom': props.bottom ? `${props.bottom.toString()}px` : `${defaultBottom}px`,
+                'left': '30px',
             }}
         >
             <Show when={isNotDefined(props.customIconSrc)} keyed>
